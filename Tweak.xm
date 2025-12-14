@@ -1,3 +1,7 @@
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <objc/runtime.h>
+#import <string.h>
 #import <substrate.h>
 #import <sys/sysctl.h>
 #import <version.h>
