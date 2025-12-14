@@ -1,11 +1,12 @@
-#import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
+@import Foundation;
+@import Foundation.NSPredicate;
+@import Foundation.NSString;
+@import Foundation.NSTimer;
+@import Foundation.NSProcessInfo;
+@import UIKit;
+
 #import <objc/runtime.h>
 #import <string.h>
-#import <substrate.h>
-#import <sys/sysctl.h>
-#import <version.h>
-#import "Header.h"
 
 extern "C" {
     BOOL UseVP9();
